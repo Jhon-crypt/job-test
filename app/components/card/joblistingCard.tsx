@@ -7,6 +7,10 @@ import { DiRuby } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaPython } from "react-icons/fa";
 import { FaEllipsisVertical } from "react-icons/fa6";
+import { BsPeopleFill } from "react-icons/bs";
+import { RiUserStarLine } from "react-icons/ri";
+import { IoEyeOutline } from "react-icons/io5";
+
 
 interface JobListingProps {
     role: string;
@@ -63,7 +67,12 @@ const JobListing: React.FC<JobListingProps> = ({ role, pay, location, skills, ap
                                 <span className='d-block mb-2 text-end' style={{ color: "grey", fontSize: "15px" }}>
                                     <FaEllipsisVertical />
                                 </span>
-                                <span className='d-block text-muted' style={{ fontSize: "15px" }}>$400k-$600k</span>
+                                <span className='d-block text-muted d-flex align-content-center' style={{ fontSize: "15px" }}>
+                                    <span className='me-3'><BsPeopleFill className='me-1'/> 400</span>
+                                    <span className='me-3'><RiUserStarLine className='me-1'/> 100</span>
+                                    <span><IoEyeOutline className='me-1'/> 500</span>
+                                    
+                                </span>
                             </div>
                         </div>
                     </div>
