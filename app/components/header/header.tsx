@@ -19,7 +19,7 @@ export default function Header() {
     return (
         <nav className="d-flex align-content-center navbar navbar-expand-lg navbar-light bg-white shadow px-3 py-1">
             <a className="navbar-brand" href="#">
-                <img src="logo.png" className="d-inline-block align-top" alt="Logo" />
+                <img src="https://res.cloudinary.com/db7wwc9ex/image/upload/v1717867762/logo_mmxswh.png" className="d-inline-block align-top" alt="Logo" />
             </a>
 
             <div className="collapse navbar-collapse justify-content-center tab-switch mb-3">
@@ -59,7 +59,7 @@ export default function Header() {
                     <PiBellSimpleLight size={25}/>
                 </div>
                 <div className="me-2">
-                    <img src="profile.png" />
+                    <img src="https://res.cloudinary.com/db7wwc9ex/image/upload/v1717867877/profile_krhme1.png" />
                 </div>
                 <div>
                     <PiCaretDownBold size={25} />

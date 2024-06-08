@@ -25,7 +25,7 @@ const JobListing: React.FC<JobListingProps> = ({ role, pay, location, skills, ap
                     <div className='d-flex align-items-center justify-content-between'>
                         <div className="d-flex">
                             <div className="flex-shrink-0">
-                                <img src="logo2.png" alt="..." width="60px" />
+                                <img src="https://res.cloudinary.com/db7wwc9ex/image/upload/v1717867762/logo2_mz8bbn.png" alt="..." width="60px" />
                             </div>
                             <div className="flex-grow-1 ms-4">
                                 <span className='d-block mb-2' style={{ color: "grey", fontSize: "13px" }}>Role</span>
