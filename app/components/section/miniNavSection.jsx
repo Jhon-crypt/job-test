@@ -19,7 +19,7 @@ export default function MiniNav() {
 
         <>
 
-            <div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center mx-2">
+            <div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center mx-5 px-3">
                 <div className='d-flex align-items-center'>
                     <div className="mini-tab-switch">
                         <div className="mini-toggle-switch rounded" style={{ width: "100%" }}>
