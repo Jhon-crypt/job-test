@@ -1,0 +1,42 @@
+.mini-tab-switch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.mini-toggle-switch {
+  display: flex;
+
+  background-color: #f0f0f0;
+  padding: 5px;
+  width: fit-content;
+}
+
+.mini-tab {
+  border: none;
+  padding: 5px 25px;
+  background: none;
+  cursor: pointer;
+  color: grey;
+  font-size: 16px;
+  outline: none;
+}
+
+.mini-tab.active {
+  background-color: white;
+  color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.search-icon {
+  position: absolute;
+  top: 60%;
+  left: -5px;
+  transform: translate(0%, -70%);
+  color: #777;
+}
+
+.search-icon ~ input {
+  text-indent: 20px;
+}

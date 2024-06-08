@@ -1,0 +1,42 @@
+.tab-switch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.toggle-switch {
+  display: flex;
+  border-radius: 25px;
+  background-color: #f0f0f0;
+  padding: 5px;
+  width: 50%; /* Ensure the toggle-switch spans the full width */
+  justify-content: space-between; /* Evenly space the buttons */
+}
+
+.tab {
+  border: none;
+  padding: 10px 10px; /* Smaller padding for smaller buttons */
+  background: none;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 12px; /* Smaller font size */
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1; /* Ensure equal width for all buttons */
+  text-align: center;
+}
+
+.tab.active {
+  background-color: #cd5439;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.align-icons {
+  margin-right: 5px;
+  vertical-align: middle;
+  font-size: 14px; /* Adjust icon size if needed */
+}
