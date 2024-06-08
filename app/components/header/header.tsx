@@ -19,7 +19,7 @@ export default function Header() {
     return (
         <nav className="d-flex align-content-center navbar navbar-expand-lg navbar-light bg-white shadow px-3 py-1">
             <a className="navbar-brand" href="#">
-                <img src="/logo.png" className="d-inline-block align-top" alt="Logo" />
+                <img src="logo.png" className="d-inline-block align-top" alt="Logo" />
             </a>
 
             <div className="collapse navbar-collapse justify-content-center tab-switch mb-3">
